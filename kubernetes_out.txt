@@ -13,3 +13,18 @@ Handling connection for 8000
 Handling connection for 8000
 
 
+root@ip-172-31-35-184:/home/ubuntu/DevOps_Microservices_Project4# ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+root@ip-172-31-35-184:/home/ubuntu/DevOps_Microservices_Project4# ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
