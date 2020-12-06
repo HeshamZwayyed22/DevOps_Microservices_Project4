@@ -1,0 +1,15 @@
+root@ip-172-31-35-184:/home/ubuntu/DevOps_Microservices_Project4# ./run_kubernetes.sh
+deployment.apps/my-app created
+NAME                      READY   STATUS              RESTARTS   AGE
+my-app-59f6db477c-krtft   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+root@ip-172-31-35-184:/home/ubuntu/DevOps_Microservices_Project4# ./run_kubernetes.sh
+error: failed to create deployment: deployments.apps "my-app" already exists
+NAME                      READY   STATUS    RESTARTS   AGE
+my-app-59f6db477c-krtft   1/1     Running   0          6s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+
